@@ -1,0 +1,11 @@
+{
+    "name": "node-test",
+    "version": "0.0.1",
+    "description": "testing node app with dokku",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Robert Mensing",
+    "license": "MIT" 
+}
