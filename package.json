@@ -16,7 +16,7 @@
   "dependencies": {
     "express": "~3.0",
     "snoowrap": "~0.9.3"
-  }
+  },
     "name": "node-test",
     "version": "0.0.1",
     "description": "testing node app with dokku",
