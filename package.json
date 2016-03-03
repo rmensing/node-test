@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "node-test",
   "version": "0.0.1",
   "description": "testing node app with dokku",
@@ -18,7 +17,6 @@
     "express": "~3.0",
     "snoowrap": "~0.9.3"
   }
-=======
     "name": "node-test",
     "version": "0.0.1",
     "description": "testing node app with dokku",
@@ -39,5 +37,4 @@
         "express": "~3.0",
         "snoowrap": "..."
     }
->>>>>>> 125edac6f765959a2f910a9d4f48d5955963c851
 }
