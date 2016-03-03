@@ -7,7 +7,7 @@
         "start": "node main.js"
     },
     "author": "Robert Mensing",
-    "license": "MIT"
+    "license": "MIT",
     "private": true,
  
     "engines": {
