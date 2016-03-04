@@ -2,7 +2,7 @@
 var PORT = process.env.PORT || 5000;
 var express = require("express");
 var snoowrap = require('snoowrap');
-r = new snoowrap(require('../config.json'))
+r = new snoowrap(require('config.json'))
  
 var app = express();
 app.use(app.router);
