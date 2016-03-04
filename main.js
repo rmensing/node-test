@@ -6,7 +6,8 @@ var snoowrap = require('snoowrap');
 const r = new snoowrap({
   client_id: process.env.CLIENT_ID,
   client_secret: process.env.CLIENT_SECRET,
-  refresh_token: process.env.REFRESH_TOKEN
+  refresh_token: process.env.REFRESH_TOKEN,
+  user_agent: 'User-Agent: Dokku-Nodejs:Quote-get:v0.1.0 (by /u/wegwerfen)'
 });
 
 var app = express();
