@@ -2,8 +2,13 @@
 var PORT = process.env.PORT || 5000;
 var express = require("express");
 var snoowrap = require('snoowrap');
-r = new snoowrap(require('./cred'))
- 
+
+const r = new snoowrap({
+  client_id: process.env.CLIENT_ID,
+  client_secret: process.env.CLIENT_SECRET,
+  refresh_token: process.env.REFRESH_TOKEN
+});
+
 var app = express();
 app.use(app.router);
 app.use(express.static(__dirname + "/public"));
