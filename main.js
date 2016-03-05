@@ -16,8 +16,8 @@ app.use(express.static(__dirname + "/public"));
    
 app.get("/", function(req, res){
  // Printing a list of the titles on the front page
- r.get_hot().map(post => post.title).then(console.log);
 res.send("Hello, World!");
+r.get_hot().map(post => post.title).then(res.send);
 });
   
 app.listen(PORT);
